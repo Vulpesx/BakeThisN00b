@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "btn",
+  "version": "${version}",
+  "name": "BakeThisN00b",
+  "description": "a mod that adds the yummies",
+  "authors": [
+    "Vulpesx"
+  ],
+  "contributors": [],
+  "contact": {
+    "sources": "https://github.com/vulpesx/BakeThisN00b"
+  },
+  "license": "MIT",
+  "icon": "assets/btn/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.vulpesx.btn.ModInitialiser"
+    ],
+    "client": [],
+    "server": []
+  },
+  "mixins": [
+    "btn.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.12.8",
+    "fabric": "*"
+  }
+}
